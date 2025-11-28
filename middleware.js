@@ -1,3 +1,7 @@
+export const config = {
+  runtime: "nodejs"
+};
+
 import { NextResponse } from 'next/server'
 
 function getAvailableLocales() {
